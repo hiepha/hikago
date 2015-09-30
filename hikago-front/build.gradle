@@ -47,5 +47,9 @@ task npmPackages(type: Sync) {
     include "angular/angular.min.js.map"
     include "jquery/dist/jquery.min.js"
     include "jquery/dist/jquery.min.map"
+    include "font-awesome/css/*"
+    include "font-awesome/fonts/*"
+    include "font-awesome/less/*"
+    include "font-awesome/scss/*"
     dependsOn npmInstalls
 }
