@@ -5,3 +5,4 @@
 /hikago-front/.gradle
 /hikago-front/gradle
 /hikago-front/caches
+/hikago-front/lib/*

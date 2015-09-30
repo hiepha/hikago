@@ -45,4 +45,7 @@ task npmPackages(type: Sync) {
     include "bootstrap/dist/**"
     include "angular/angular.min.js"
     include "angular/angular.min.js.map"
+    include "jquery/dist/jquery.min.js"
+    include "jquery/dist/jquery.min.map"
+    dependsOn npmInstalls
 }
