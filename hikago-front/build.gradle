@@ -31,10 +31,18 @@ task npmCacheConfig(type: NpmTask) {
     args = [ 'config', 'set', 'cache', npmCacheDir ]
 }
 
-task npmPackages(type: NpmTask) {
+task npmInstalls(type: NpmTask) {
     description = "Install Node.js packages"
     args = [ 'install' ]
     inputs.files file('package.json')
     outputs.files file('node_modules')
     dependsOn npmCacheConfig
+}
+
+task npmPackages(type: Sync) {
+    from "node_modules"
+    into "lib"
+    include "bootstrap/dist/**"
+    include "angular/angular.min.js"
+    include "angular/angular.min.js.map"
 }

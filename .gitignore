@@ -1,4 +1,7 @@
 /**/.idea
-/hikago-front/fonts/*
+/**/*.iml
+
 /hikago-front/node_modules
 /hikago-front/.gradle
+/hikago-front/gradle
+/hikago-front/caches
