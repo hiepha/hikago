@@ -1,0 +1,40 @@
+apply plugin: 'idea'
+apply plugin: "com.moowork.node"
+
+version = '0.0.1-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+buildscript {
+    repositories {
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+    dependencies {
+        classpath 'com.moowork.gradle:gradle-node-plugin:0.9'
+    }
+}
+
+node {
+    version = '0.12.2'
+    npmVersion = '2.7.5'
+    download = true
+}
+
+task npmCacheConfig(type: NpmTask) {
+    description = "Configure the NPM cache"
+    def npmCacheDir = "caches/npm"
+    outputs.files file(npmCacheDir)
+    args = [ 'config', 'set', 'cache', npmCacheDir ]
+}
+
+task npmPackages(type: NpmTask) {
+    description = "Install Node.js packages"
+    args = [ 'install' ]
+    inputs.files file('package.json')
+    outputs.files file('node_modules')
+    dependsOn npmCacheConfig
+}
