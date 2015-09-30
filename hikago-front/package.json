@@ -1,0 +1,9 @@
+{
+  "engines": {
+    "node": "0.12.x"
+  },
+  "dependencies": {
+    "angular": "1.4.6",
+    "bootstrap": "3.3.5"
+  }
+}
