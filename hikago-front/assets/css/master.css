@@ -12,7 +12,7 @@ body {
 }
 
 body {
-    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    padding-top: 50px;/* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
 .img-portfolio {
@@ -42,31 +42,6 @@ header.carousel .fill {
     background-size: cover;
 }
 
-/* 404 Page Styles */
-
-.error-404 {
-    font-size: 100px;
-}
-
-/* Pricing Page Styles */
-
-.price {
-    display: block;
-    font-size: 50px;
-    line-height: 50px;
-}
-
-.price sup {
-    top: -20px;
-    left: 2px;
-    font-size: 20px;
-}
-
-.period {
-    display: block;
-    font-style: italic;
-}
-
 /* Footer Styles */
 
 footer {
@@ -90,4 +65,10 @@ footer {
     header.carousel .carousel {
         height: 70%;
     }
+}
+
+/* Elements */
+.thumbnail-small {
+    max-width: 70px;
+    max-height: 70px;
 }

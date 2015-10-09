@@ -1,0 +1,80 @@
+/*!
+ * Start Bootstrap - Shop Homepage HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+.course {
+    padding-top: 20px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.course .slide-image {
+    width: 100%;
+}
+
+.course .carousel-holder {
+    margin-bottom: 30px;
+}
+
+.course .carousel-control,
+.item {
+    border-radius: 4px;
+}
+
+.course .caption {
+    height: 130px;
+    overflow: hidden;
+}
+
+.course .caption h4 {
+    white-space: nowrap;
+}
+
+.course .thumbnail img {
+    width: 100%;
+}
+
+.course .ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+
+.course .thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+
+.course .sidebar button {
+    
+/*width: 147px;*/
+}
+
+.course .sidebar span {
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*transform: translateY(-50%);*/
+    /*margin-left: 10px;*/
+}
+
+.course .big-title {
+    /*font-size: medium;*/
+}
+
+.course .medium-title {
+    /*font-size: small;*/
+}
+
+.course .item-list .fa-star {
+    color: orange;
+}
+
+.course.details {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.course .author-avatar {
+    display: inline-block;
+    margin: 0;
+}
