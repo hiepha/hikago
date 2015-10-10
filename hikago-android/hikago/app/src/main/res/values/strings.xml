@@ -3,5 +3,10 @@
 
     <string name="hello_world">Hello Hikago!</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_main">My Course</string>
+    <string name="title_activity_my_course_fragment">MyCourseFragment</string>
+    <string name="title_activity_course_detail">CourseDetailActivity</string>
+    <string name="detail_dump">Introductory Mandarin is the first in a series of six courses designed to teach you how to speak Mandarin Chinese. This course will introduce you to the basic language you will need to eat, live, and get around in Mandarin speaking countries.
+
+Since this is a language course, we recommend taking this course with a friend or group of friends. Practicing with others by speaking the language will help you learn it more effectively. Additionally, Mandarin is a tonal language, which means that in order to truly master it, you will need to say the words out loud! Join the community of over 900 million native Mandarin speakers and start learning today! </string>
 </resources>

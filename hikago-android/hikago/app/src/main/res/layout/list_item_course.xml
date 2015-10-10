@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/course_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:src="@drawable/course_thumbnail"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:layout_below="@+id/course_image_view"
+        android:id="@+id/course_title_text_view"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Basic Japanese - Level 1"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="22sp"
+        android:layout_marginLeft="4dp"/>
+
+    <TextView
+        android:layout_below="@+id/course_title_text_view"
+        android:layout_width="match_parent"
+        android:textSize="14sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/course_author_text_view"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="4dp"
+        android:text="IdealTown | Hikago"/>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string-array name="courses_list">
+        <item>Course 1</item>
+        <item>Course 2</item>
+        <item>Course 3</item>
+        <item>Course 4</item>
+        <item>Course 5</item>
+        <item>Course 6</item>
+        <item>Course 7</item>
+    </string-array>
+</resources>
