@@ -69,12 +69,21 @@
     color: orange;
 }
 
-.course.details {
+.course .author-avatar {
+    display: inline-block;
+    margin: 0;
+}
+
+.details {
     padding-left: 30px;
     padding-right: 30px;
 }
 
-.course .author-avatar {
-    display: inline-block;
-    margin: 0;
+.edit .description-edit {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.edit .title-edit {
+    width: 100%;
 }

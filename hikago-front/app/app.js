@@ -8,6 +8,8 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
         templateUrl: 'app/course/course.html'
     }).when('/course-details', {
         templateUrl: 'app/course-details/course-details.html'
+    }).when('/course-edit', {
+        templateUrl: 'app/course-edit/course-edit.html'
     });
     //$locationProvider.html5Mode(true);
     //$locationProvider.hashPrefix('!');
