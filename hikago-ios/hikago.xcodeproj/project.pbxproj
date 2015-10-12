@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00278BAE1BCAB77E0030714A /* course-list.xml in Resources */ = {isa = PBXBuildFile; fileRef = 00278BA71BCAB77E0030714A /* course-list.xml */; settings = {ASSET_TAGS = (); }; };
+		00278BAF1BCAB77E0030714A /* Courses.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00278BA81BCAB77E0030714A /* Courses.plist */; settings = {ASSET_TAGS = (); }; };
+		00278BB51BCAB80F0030714A /* hikago.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00278BB31BCAB80F0030714A /* hikago.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
+		00278BBE1BCAB9AD0030714A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00278BBD1BCAB9AD0030714A /* Info.plist */; settings = {ASSET_TAGS = (); }; };
+		002B43D71BC4C585003AF629 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002B43D51BC4C585003AF629 /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		002B43E51BC4C9BB003AF629 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 002B43DF1BC4C9BB003AF629 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		002B43E61BC4C9BB003AF629 /* CourseListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 002B43E11BC4C9BB003AF629 /* CourseListViewController.m */; settings = {ASSET_TAGS = (); }; };
+		002B43E71BC4C9BB003AF629 /* CourseListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 002B43E21BC4C9BB003AF629 /* CourseListViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		002B43E81BC4C9BB003AF629 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 002B43E41BC4C9BB003AF629 /* MainViewController.m */; settings = {ASSET_TAGS = (); }; };
+		002B43F41BC4C9DB003AF629 /* CommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 002B43ED1BC4C9DB003AF629 /* CommonUtil.m */; settings = {ASSET_TAGS = (); }; };
+		002B43F51BC4C9DB003AF629 /* HttpRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 002B43EF1BC4C9DB003AF629 /* HttpRequestOperationManager.m */; settings = {ASSET_TAGS = (); }; };
+		002B43F61BC4C9DB003AF629 /* HttpRequestService.m in Sources */ = {isa = PBXBuildFile; fileRef = 002B43F11BC4C9DB003AF629 /* HttpRequestService.m */; settings = {ASSET_TAGS = (); }; };
+		002B43F71BC4C9DB003AF629 /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 002B43F31BC4C9DB003AF629 /* XMLParser.m */; settings = {ASSET_TAGS = (); }; };
+		002B43FC1BC4CA5A003AF629 /* login.xml in Resources */ = {isa = PBXBuildFile; fileRef = 002B43FB1BC4CA5A003AF629 /* login.xml */; settings = {ASSET_TAGS = (); }; };
+		002B43FF1BC4CD7A003AF629 /* CoursesObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 002B43FE1BC4CD7A003AF629 /* CoursesObject.m */; settings = {ASSET_TAGS = (); }; };
+		002B44031BC4F770003AF629 /* CourseListBussiness.m in Sources */ = {isa = PBXBuildFile; fileRef = 002B44021BC4F770003AF629 /* CourseListBussiness.m */; settings = {ASSET_TAGS = (); }; };
+		002B44061BC4F7C9003AF629 /* ObjectBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 002B44051BC4F7C9003AF629 /* ObjectBase.m */; settings = {ASSET_TAGS = (); }; };
+		0045D2F81BCAB2BD0066274C /* CourseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0045D2F61BCAB2BD0066274C /* CourseCell.m */; settings = {ASSET_TAGS = (); }; };
+		0045D2F91BCAB2BD0066274C /* CourseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0045D2F71BCAB2BD0066274C /* CourseCell.xib */; settings = {ASSET_TAGS = (); }; };
+		00B28EDB1BBA23EE006AED14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B28EDA1BBA23EE006AED14 /* main.m */; };
+		00B28EE41BBA23EE006AED14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00B28EE21BBA23EE006AED14 /* Main.storyboard */; };
+		00B28EE71BBA23EE006AED14 /* hikago.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00B28EE51BBA23EE006AED14 /* hikago.xcdatamodeld */; };
+		00B28EE91BBA23EE006AED14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00B28EE81BBA23EE006AED14 /* Assets.xcassets */; };
+		00B28EF71BBA23EE006AED14 /* hikagoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B28EF61BBA23EE006AED14 /* hikagoTests.m */; };
+		00B28F021BBA23EE006AED14 /* hikagoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B28F011BBA23EE006AED14 /* hikagoUITests.m */; };
+		B864719C2018190C754BB58C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E4169C0875FA460FEEDCD65 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00B28EF31BBA23EE006AED14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00B28ECE1BBA23EE006AED14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00B28ED51BBA23EE006AED14;
+			remoteInfo = hikago;
+		};
+		00B28EFE1BBA23EE006AED14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00B28ECE1BBA23EE006AED14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00B28ED51BBA23EE006AED14;
+			remoteInfo = hikago;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00278BA71BCAB77E0030714A /* course-list.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "course-list.xml"; path = "Resources/course-list.xml"; sourceTree = "<group>"; };
+		00278BA81BCAB77E0030714A /* Courses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Courses.plist; path = Resources/Courses.plist; sourceTree = "<group>"; };
+		00278BB41BCAB80F0030714A /* hikago.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = hikago.xcdatamodel; sourceTree = "<group>"; };
+		00278BBC1BCAB96E0030714A /* HikagoPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HikagoPrefixHeader.pch; sourceTree = "<group>"; };
+		00278BBD1BCAB9AD0030714A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		002B43D61BC4C585003AF629 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		002B43DE1BC4C9BB003AF629 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		002B43DF1BC4C9BB003AF629 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		002B43E01BC4C9BB003AF629 /* CourseListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseListViewController.h; sourceTree = "<group>"; };
+		002B43E11BC4C9BB003AF629 /* CourseListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseListViewController.m; sourceTree = "<group>"; };
+		002B43E21BC4C9BB003AF629 /* CourseListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CourseListViewController.xib; sourceTree = "<group>"; };
+		002B43E31BC4C9BB003AF629 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		002B43E41BC4C9BB003AF629 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		002B43EB1BC4C9DB003AF629 /* CommonDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonDefine.h; sourceTree = "<group>"; };
+		002B43EC1BC4C9DB003AF629 /* CommonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtil.h; sourceTree = "<group>"; };
+		002B43ED1BC4C9DB003AF629 /* CommonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtil.m; sourceTree = "<group>"; };
+		002B43EE1BC4C9DB003AF629 /* HttpRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequestOperationManager.h; sourceTree = "<group>"; };
+		002B43EF1BC4C9DB003AF629 /* HttpRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequestOperationManager.m; sourceTree = "<group>"; };
+		002B43F01BC4C9DB003AF629 /* HttpRequestService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequestService.h; sourceTree = "<group>"; };
+		002B43F11BC4C9DB003AF629 /* HttpRequestService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequestService.m; sourceTree = "<group>"; };
+		002B43F21BC4C9DB003AF629 /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
+		002B43F31BC4C9DB003AF629 /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
+		002B43FB1BC4CA5A003AF629 /* login.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = login.xml; sourceTree = "<group>"; };
+		002B43FD1BC4CD7A003AF629 /* CoursesObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoursesObject.h; sourceTree = "<group>"; };
+		002B43FE1BC4CD7A003AF629 /* CoursesObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoursesObject.m; sourceTree = "<group>"; };
+		002B44011BC4F770003AF629 /* CourseListBussiness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseListBussiness.h; sourceTree = "<group>"; };
+		002B44021BC4F770003AF629 /* CourseListBussiness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseListBussiness.m; sourceTree = "<group>"; };
+		002B44041BC4F7C9003AF629 /* ObjectBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectBase.h; sourceTree = "<group>"; };
+		002B44051BC4F7C9003AF629 /* ObjectBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectBase.m; sourceTree = "<group>"; };
+		0045D2F51BCAB2BD0066274C /* CourseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseCell.h; sourceTree = "<group>"; };
+		0045D2F61BCAB2BD0066274C /* CourseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseCell.m; sourceTree = "<group>"; };
+		0045D2F71BCAB2BD0066274C /* CourseCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CourseCell.xib; sourceTree = "<group>"; };
+		00B28ED61BBA23EE006AED14 /* hikago.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hikago.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00B28EDA1BBA23EE006AED14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00B28EE31BBA23EE006AED14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00B28EE61BBA23EE006AED14 /* hikago.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = hikago.xcdatamodel; sourceTree = "<group>"; };
+		00B28EE81BBA23EE006AED14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00B28EF21BBA23EE006AED14 /* hikagoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hikagoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00B28EF61BBA23EE006AED14 /* hikagoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hikagoTests.m; sourceTree = "<group>"; };
+		00B28EF81BBA23EE006AED14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00B28EFD1BBA23EE006AED14 /* hikagoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hikagoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00B28F011BBA23EE006AED14 /* hikagoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hikagoUITests.m; sourceTree = "<group>"; };
+		00B28F031BBA23EE006AED14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1002BB09760F2C062988E668 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		1B3BDAE924FC656EE2FA9705 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		5E4169C0875FA460FEEDCD65 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00B28ED31BBA23EE006AED14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B864719C2018190C754BB58C /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00B28EEF1BBA23EE006AED14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00B28EFA1BBA23EE006AED14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		002B43DD1BC4C9BB003AF629 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0045D2F41BCAB2A50066274C /* Cells */,
+				002B43DE1BC4C9BB003AF629 /* AppDelegate.h */,
+				002B43DF1BC4C9BB003AF629 /* AppDelegate.m */,
+				002B43E01BC4C9BB003AF629 /* CourseListViewController.h */,
+				002B43E11BC4C9BB003AF629 /* CourseListViewController.m */,
+				002B43E21BC4C9BB003AF629 /* CourseListViewController.xib */,
+				002B43E31BC4C9BB003AF629 /* MainViewController.h */,
+				002B43E41BC4C9BB003AF629 /* MainViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		002B43E91BC4C9CD003AF629 /* BussinessControllers */ = {
+			isa = PBXGroup;
+			children = (
+				002B44011BC4F770003AF629 /* CourseListBussiness.h */,
+				002B44021BC4F770003AF629 /* CourseListBussiness.m */,
+			);
+			path = BussinessControllers;
+			sourceTree = "<group>";
+		};
+		002B43EA1BC4C9DB003AF629 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				002B43EB1BC4C9DB003AF629 /* CommonDefine.h */,
+				002B43EC1BC4C9DB003AF629 /* CommonUtil.h */,
+				002B43ED1BC4C9DB003AF629 /* CommonUtil.m */,
+				002B43EE1BC4C9DB003AF629 /* HttpRequestOperationManager.h */,
+				002B43EF1BC4C9DB003AF629 /* HttpRequestOperationManager.m */,
+				002B43F01BC4C9DB003AF629 /* HttpRequestService.h */,
+				002B43F11BC4C9DB003AF629 /* HttpRequestService.m */,
+				002B43F21BC4C9DB003AF629 /* XMLParser.h */,
+				002B43F31BC4C9DB003AF629 /* XMLParser.m */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		002B43F81BC4CA47003AF629 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				002B43FD1BC4CD7A003AF629 /* CoursesObject.h */,
+				002B43FE1BC4CD7A003AF629 /* CoursesObject.m */,
+				002B44041BC4F7C9003AF629 /* ObjectBase.h */,
+				002B44051BC4F7C9003AF629 /* ObjectBase.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		002B43F91BC4CA4D003AF629 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		002B43FA1BC4CA5A003AF629 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				002B43FB1BC4CA5A003AF629 /* login.xml */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		0045D2F41BCAB2A50066274C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0045D2F51BCAB2BD0066274C /* CourseCell.h */,
+				0045D2F61BCAB2BD0066274C /* CourseCell.m */,
+				0045D2F71BCAB2BD0066274C /* CourseCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		00B28ECD1BBA23EE006AED14 = {
+			isa = PBXGroup;
+			children = (
+				00B28ED81BBA23EE006AED14 /* hikago */,
+				00B28EF51BBA23EE006AED14 /* hikagoTests */,
+				00B28F001BBA23EE006AED14 /* hikagoUITests */,
+				00B28ED71BBA23EE006AED14 /* Products */,
+				208132D8E63CDCFA870A262A /* Pods */,
+				7C7F6EEF1B5A58186455D083 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		00B28ED71BBA23EE006AED14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00B28ED61BBA23EE006AED14 /* hikago.app */,
+				00B28EF21BBA23EE006AED14 /* hikagoTests.xctest */,
+				00B28EFD1BBA23EE006AED14 /* hikagoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00B28ED81BBA23EE006AED14 /* hikago */ = {
+			isa = PBXGroup;
+			children = (
+				00E32A541BC8FAB300ECC81E /* Resources */,
+				002B43FA1BC4CA5A003AF629 /* Files */,
+				002B43F91BC4CA4D003AF629 /* Utils */,
+				002B43F81BC4CA47003AF629 /* Models */,
+				002B43EA1BC4C9DB003AF629 /* Commons */,
+				002B43E91BC4C9CD003AF629 /* BussinessControllers */,
+				002B43DD1BC4C9BB003AF629 /* ViewControllers */,
+				00B28ED91BBA23EE006AED14 /* Supporting Files */,
+			);
+			path = hikago;
+			sourceTree = "<group>";
+		};
+		00B28ED91BBA23EE006AED14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00B28EDA1BBA23EE006AED14 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00B28EF51BBA23EE006AED14 /* hikagoTests */ = {
+			isa = PBXGroup;
+			children = (
+				00B28EF61BBA23EE006AED14 /* hikagoTests.m */,
+				00B28EF81BBA23EE006AED14 /* Info.plist */,
+			);
+			path = hikagoTests;
+			sourceTree = "<group>";
+		};
+		00B28F001BBA23EE006AED14 /* hikagoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				00B28F011BBA23EE006AED14 /* hikagoUITests.m */,
+				00B28F031BBA23EE006AED14 /* Info.plist */,
+			);
+			path = hikagoUITests;
+			sourceTree = "<group>";
+		};
+		00E32A541BC8FAB300ECC81E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				00278BBD1BCAB9AD0030714A /* Info.plist */,
+				00278BBC1BCAB96E0030714A /* HikagoPrefixHeader.pch */,
+				00278BB31BCAB80F0030714A /* hikago.xcdatamodeld */,
+				00278BA71BCAB77E0030714A /* course-list.xml */,
+				00278BA81BCAB77E0030714A /* Courses.plist */,
+				002B43D51BC4C585003AF629 /* LaunchScreen.storyboard */,
+				00B28EE21BBA23EE006AED14 /* Main.storyboard */,
+				00B28EE81BBA23EE006AED14 /* Assets.xcassets */,
+				00B28EE51BBA23EE006AED14 /* hikago.xcdatamodeld */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		208132D8E63CDCFA870A262A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B3BDAE924FC656EE2FA9705 /* Pods.debug.xcconfig */,
+				1002BB09760F2C062988E668 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7C7F6EEF1B5A58186455D083 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E4169C0875FA460FEEDCD65 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00B28ED51BBA23EE006AED14 /* hikago */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00B28F061BBA23EE006AED14 /* Build configuration list for PBXNativeTarget "hikago" */;
+			buildPhases = (
+				7114A6A54304CDE5E743F96B /* Check Pods Manifest.lock */,
+				00B28ED21BBA23EE006AED14 /* Sources */,
+				00B28ED31BBA23EE006AED14 /* Frameworks */,
+				00B28ED41BBA23EE006AED14 /* Resources */,
+				904C66F364F78224D754031F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hikago;
+			productName = hikago;
+			productReference = 00B28ED61BBA23EE006AED14 /* hikago.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00B28EF11BBA23EE006AED14 /* hikagoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00B28F091BBA23EE006AED14 /* Build configuration list for PBXNativeTarget "hikagoTests" */;
+			buildPhases = (
+				00B28EEE1BBA23EE006AED14 /* Sources */,
+				00B28EEF1BBA23EE006AED14 /* Frameworks */,
+				00B28EF01BBA23EE006AED14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00B28EF41BBA23EE006AED14 /* PBXTargetDependency */,
+			);
+			name = hikagoTests;
+			productName = hikagoTests;
+			productReference = 00B28EF21BBA23EE006AED14 /* hikagoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		00B28EFC1BBA23EE006AED14 /* hikagoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00B28F0C1BBA23EE006AED14 /* Build configuration list for PBXNativeTarget "hikagoUITests" */;
+			buildPhases = (
+				00B28EF91BBA23EE006AED14 /* Sources */,
+				00B28EFA1BBA23EE006AED14 /* Frameworks */,
+				00B28EFB1BBA23EE006AED14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00B28EFF1BBA23EE006AED14 /* PBXTargetDependency */,
+			);
+			name = hikagoUITests;
+			productName = hikagoUITests;
+			productReference = 00B28EFD1BBA23EE006AED14 /* hikagoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00B28ECE1BBA23EE006AED14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Thirdty-six";
+				TargetAttributes = {
+					00B28ED51BBA23EE006AED14 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = GK28SZJ7TD;
+					};
+					00B28EF11BBA23EE006AED14 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 00B28ED51BBA23EE006AED14;
+					};
+					00B28EFC1BBA23EE006AED14 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 00B28ED51BBA23EE006AED14;
+					};
+				};
+			};
+			buildConfigurationList = 00B28ED11BBA23EE006AED14 /* Build configuration list for PBXProject "hikago" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00B28ECD1BBA23EE006AED14;
+			productRefGroup = 00B28ED71BBA23EE006AED14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00B28ED51BBA23EE006AED14 /* hikago */,
+				00B28EF11BBA23EE006AED14 /* hikagoTests */,
+				00B28EFC1BBA23EE006AED14 /* hikagoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00B28ED41BBA23EE006AED14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B28EE91BBA23EE006AED14 /* Assets.xcassets in Resources */,
+				002B43FC1BC4CA5A003AF629 /* login.xml in Resources */,
+				00278BBE1BCAB9AD0030714A /* Info.plist in Resources */,
+				00278BAE1BCAB77E0030714A /* course-list.xml in Resources */,
+				00278BAF1BCAB77E0030714A /* Courses.plist in Resources */,
+				002B43E71BC4C9BB003AF629 /* CourseListViewController.xib in Resources */,
+				0045D2F91BCAB2BD0066274C /* CourseCell.xib in Resources */,
+				002B43D71BC4C585003AF629 /* LaunchScreen.storyboard in Resources */,
+				00B28EE41BBA23EE006AED14 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00B28EF01BBA23EE006AED14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00B28EFB1BBA23EE006AED14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7114A6A54304CDE5E743F96B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		904C66F364F78224D754031F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00B28ED21BBA23EE006AED14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B28EE71BBA23EE006AED14 /* hikago.xcdatamodeld in Sources */,
+				002B43F61BC4C9DB003AF629 /* HttpRequestService.m in Sources */,
+				002B43E61BC4C9BB003AF629 /* CourseListViewController.m in Sources */,
+				00B28EDB1BBA23EE006AED14 /* main.m in Sources */,
+				002B44031BC4F770003AF629 /* CourseListBussiness.m in Sources */,
+				002B43F51BC4C9DB003AF629 /* HttpRequestOperationManager.m in Sources */,
+				0045D2F81BCAB2BD0066274C /* CourseCell.m in Sources */,
+				002B43FF1BC4CD7A003AF629 /* CoursesObject.m in Sources */,
+				002B43E81BC4C9BB003AF629 /* MainViewController.m in Sources */,
+				002B43F41BC4C9DB003AF629 /* CommonUtil.m in Sources */,
+				002B44061BC4F7C9003AF629 /* ObjectBase.m in Sources */,
+				00278BB51BCAB80F0030714A /* hikago.xcdatamodeld in Sources */,
+				002B43F71BC4C9DB003AF629 /* XMLParser.m in Sources */,
+				002B43E51BC4C9BB003AF629 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00B28EEE1BBA23EE006AED14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B28EF71BBA23EE006AED14 /* hikagoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00B28EF91BBA23EE006AED14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B28F021BBA23EE006AED14 /* hikagoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00B28EF41BBA23EE006AED14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00B28ED51BBA23EE006AED14 /* hikago */;
+			targetProxy = 00B28EF31BBA23EE006AED14 /* PBXContainerItemProxy */;
+		};
+		00B28EFF1BBA23EE006AED14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00B28ED51BBA23EE006AED14 /* hikago */;
+			targetProxy = 00B28EFE1BBA23EE006AED14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		002B43D51BC4C585003AF629 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				002B43D61BC4C585003AF629 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		00B28EE21BBA23EE006AED14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00B28EE31BBA23EE006AED14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00B28F041BBA23EE006AED14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00B28F051BBA23EE006AED14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00B28F071BBA23EE006AED14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B3BDAE924FC656EE2FA9705 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "${SRCROOT}/hikago/HikagoPrefixHeader.pch";
+				INFOPLIST_FILE = hikago/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Thirdty-six.hikago";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		00B28F081BBA23EE006AED14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1002BB09760F2C062988E668 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "${SRCROOT}/hikago/HikagoPrefixHeader.pch";
+				INFOPLIST_FILE = hikago/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Thirdty-six.hikago";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		00B28F0A1BBA23EE006AED14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = hikagoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Thirdty-six.hikagoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hikago.app/hikago";
+			};
+			name = Debug;
+		};
+		00B28F0B1BBA23EE006AED14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = hikagoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Thirdty-six.hikagoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hikago.app/hikago";
+			};
+			name = Release;
+		};
+		00B28F0D1BBA23EE006AED14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = hikagoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Thirdty-six.hikagoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = hikago;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		00B28F0E1BBA23EE006AED14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = hikagoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Thirdty-six.hikagoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = hikago;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00B28ED11BBA23EE006AED14 /* Build configuration list for PBXProject "hikago" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00B28F041BBA23EE006AED14 /* Debug */,
+				00B28F051BBA23EE006AED14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00B28F061BBA23EE006AED14 /* Build configuration list for PBXNativeTarget "hikago" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00B28F071BBA23EE006AED14 /* Debug */,
+				00B28F081BBA23EE006AED14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00B28F091BBA23EE006AED14 /* Build configuration list for PBXNativeTarget "hikagoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00B28F0A1BBA23EE006AED14 /* Debug */,
+				00B28F0B1BBA23EE006AED14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00B28F0C1BBA23EE006AED14 /* Build configuration list for PBXNativeTarget "hikagoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00B28F0D1BBA23EE006AED14 /* Debug */,
+				00B28F0E1BBA23EE006AED14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		00278BB31BCAB80F0030714A /* hikago.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				00278BB41BCAB80F0030714A /* hikago.xcdatamodel */,
+			);
+			currentVersion = 00278BB41BCAB80F0030714A /* hikago.xcdatamodel */;
+			path = hikago.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		00B28EE51BBA23EE006AED14 /* hikago.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				00B28EE61BBA23EE006AED14 /* hikago.xcdatamodel */,
+			);
+			currentVersion = 00B28EE61BBA23EE006AED14 /* hikago.xcdatamodel */;
+			path = hikago.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 00B28ECE1BBA23EE006AED14 /* Project object */;
+}

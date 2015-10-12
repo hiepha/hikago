@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[XMLParser parserXMLFromData:arrayObject:]:XMLParser.m">
+      </ContextState>
+      <ContextState
+         contextName = "__45-[CourseListBussiness getCourseList:failure:]_block_invoke:CourseListBussiness.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[CourseListViewController tableView:cellForRowAtIndexPath:]:CourseListViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "course[@&quot;status&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[XMLParser parser:didEndElement:namespaceURI:qualifiedName:]:XMLParser.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_currentParseObject">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
