@@ -75,8 +75,6 @@
     courseCell.lbCourseName.text = course[@"courseName"];
     courseCell.lbAuthor.text = course[@"owner"];
     courseCell.lbCreatedTime.text = course[@"createdTime"];
-//    UIImage * img = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:contact.avatar]]];
-//    contactCell.imgAvatar.image = img;
     return courseCell;
 }
 

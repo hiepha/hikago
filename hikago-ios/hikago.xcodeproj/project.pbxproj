@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00278BAE1BCAB77E0030714A /* course-list.xml in Resources */ = {isa = PBXBuildFile; fileRef = 00278BA71BCAB77E0030714A /* course-list.xml */; settings = {ASSET_TAGS = (); }; };
 		00278BAF1BCAB77E0030714A /* Courses.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00278BA81BCAB77E0030714A /* Courses.plist */; settings = {ASSET_TAGS = (); }; };
 		00278BB51BCAB80F0030714A /* hikago.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00278BB31BCAB80F0030714A /* hikago.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
 		00278BBE1BCAB9AD0030714A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00278BBD1BCAB9AD0030714A /* Info.plist */; settings = {ASSET_TAGS = (); }; };
@@ -34,6 +33,11 @@
 		00B28F021BBA23EE006AED14 /* hikagoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B28F011BBA23EE006AED14 /* hikagoUITests.m */; };
 		00EB1AA41BCCAE2900BEDDCA /* CourseDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 00EB1AA21BCCAE2900BEDDCA /* CourseDetail.m */; settings = {ASSET_TAGS = (); }; };
 		00EB1AA51BCCAE2900BEDDCA /* CourseDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00EB1AA31BCCAE2900BEDDCA /* CourseDetail.xib */; settings = {ASSET_TAGS = (); }; };
+		00EB1AAB1BCCBD8C00BEDDCA /* Sentence.m in Sources */ = {isa = PBXBuildFile; fileRef = 00EB1AAA1BCCBD8C00BEDDCA /* Sentence.m */; settings = {ASSET_TAGS = (); }; };
+		00EB1AAD1BCCDA9B00BEDDCA /* CoursesDetail.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00EB1AAC1BCCDA9B00BEDDCA /* CoursesDetail.plist */; settings = {ASSET_TAGS = (); }; };
+		00EB1AAF1BCCDE4F00BEDDCA /* Sentency.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00EB1AAE1BCCDE4F00BEDDCA /* Sentency.plist */; settings = {ASSET_TAGS = (); }; };
+		00EB1ABD1BCCE96700BEDDCA /* SentencyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00EB1ABB1BCCE96700BEDDCA /* SentencyCell.m */; settings = {ASSET_TAGS = (); }; };
+		00EB1ABE1BCCE96700BEDDCA /* SentencyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00EB1ABC1BCCE96700BEDDCA /* SentencyCell.xib */; settings = {ASSET_TAGS = (); }; };
 		B864719C2018190C754BB58C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E4169C0875FA460FEEDCD65 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -55,7 +59,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00278BA71BCAB77E0030714A /* course-list.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "course-list.xml"; path = "Resources/course-list.xml"; sourceTree = "<group>"; };
 		00278BA81BCAB77E0030714A /* Courses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Courses.plist; path = Resources/Courses.plist; sourceTree = "<group>"; };
 		00278BB41BCAB80F0030714A /* hikago.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = hikago.xcdatamodel; sourceTree = "<group>"; };
 		00278BBC1BCAB96E0030714A /* HikagoPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HikagoPrefixHeader.pch; sourceTree = "<group>"; };
@@ -101,6 +104,13 @@
 		00EB1AA11BCCAE2900BEDDCA /* CourseDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseDetail.h; sourceTree = "<group>"; };
 		00EB1AA21BCCAE2900BEDDCA /* CourseDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseDetail.m; sourceTree = "<group>"; };
 		00EB1AA31BCCAE2900BEDDCA /* CourseDetail.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CourseDetail.xib; sourceTree = "<group>"; };
+		00EB1AA91BCCBD8C00BEDDCA /* Sentence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sentence.h; sourceTree = "<group>"; };
+		00EB1AAA1BCCBD8C00BEDDCA /* Sentence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sentence.m; sourceTree = "<group>"; };
+		00EB1AAC1BCCDA9B00BEDDCA /* CoursesDetail.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = CoursesDetail.plist; path = Resources/CoursesDetail.plist; sourceTree = "<group>"; };
+		00EB1AAE1BCCDE4F00BEDDCA /* Sentency.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Sentency.plist; path = Resources/Sentency.plist; sourceTree = "<group>"; };
+		00EB1ABA1BCCE96700BEDDCA /* SentencyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SentencyCell.h; sourceTree = "<group>"; };
+		00EB1ABB1BCCE96700BEDDCA /* SentencyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SentencyCell.m; sourceTree = "<group>"; };
+		00EB1ABC1BCCE96700BEDDCA /* SentencyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SentencyCell.xib; sourceTree = "<group>"; };
 		1002BB09760F2C062988E668 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		1B3BDAE924FC656EE2FA9705 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		5E4169C0875FA460FEEDCD65 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -182,6 +192,8 @@
 				002B43FE1BC4CD7A003AF629 /* CoursesObject.m */,
 				002B44041BC4F7C9003AF629 /* ObjectBase.h */,
 				002B44051BC4F7C9003AF629 /* ObjectBase.m */,
+				00EB1AA91BCCBD8C00BEDDCA /* Sentence.h */,
+				00EB1AAA1BCCBD8C00BEDDCA /* Sentence.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -207,6 +219,9 @@
 				0045D2F51BCAB2BD0066274C /* CourseCell.h */,
 				0045D2F61BCAB2BD0066274C /* CourseCell.m */,
 				0045D2F71BCAB2BD0066274C /* CourseCell.xib */,
+				00EB1ABA1BCCE96700BEDDCA /* SentencyCell.h */,
+				00EB1ABB1BCCE96700BEDDCA /* SentencyCell.m */,
+				00EB1ABC1BCCE96700BEDDCA /* SentencyCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -277,10 +292,11 @@
 		00E32A541BC8FAB300ECC81E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				00EB1AAE1BCCDE4F00BEDDCA /* Sentency.plist */,
+				00EB1AAC1BCCDA9B00BEDDCA /* CoursesDetail.plist */,
 				00278BBD1BCAB9AD0030714A /* Info.plist */,
 				00278BBC1BCAB96E0030714A /* HikagoPrefixHeader.pch */,
 				00278BB31BCAB80F0030714A /* hikago.xcdatamodeld */,
-				00278BA71BCAB77E0030714A /* course-list.xml */,
 				00278BA81BCAB77E0030714A /* Courses.plist */,
 				002B43D51BC4C585003AF629 /* LaunchScreen.storyboard */,
 				00B28EE21BBA23EE006AED14 /* Main.storyboard */,
@@ -414,15 +430,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00EB1AAD1BCCDA9B00BEDDCA /* CoursesDetail.plist in Resources */,
 				00B28EE91BBA23EE006AED14 /* Assets.xcassets in Resources */,
 				002B43FC1BC4CA5A003AF629 /* login.xml in Resources */,
 				00278BBE1BCAB9AD0030714A /* Info.plist in Resources */,
-				00278BAE1BCAB77E0030714A /* course-list.xml in Resources */,
 				00278BAF1BCAB77E0030714A /* Courses.plist in Resources */,
+				00EB1AAF1BCCDE4F00BEDDCA /* Sentency.plist in Resources */,
 				002B43E71BC4C9BB003AF629 /* CourseListViewController.xib in Resources */,
 				0045D2F91BCAB2BD0066274C /* CourseCell.xib in Resources */,
 				002B43D71BC4C585003AF629 /* LaunchScreen.storyboard in Resources */,
 				00B28EE41BBA23EE006AED14 /* Main.storyboard in Resources */,
+				00EB1ABE1BCCE96700BEDDCA /* SentencyCell.xib in Resources */,
 				00EB1AA51BCCAE2900BEDDCA /* CourseDetail.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -506,6 +524,8 @@
 				002B43FF1BC4CD7A003AF629 /* CoursesObject.m in Sources */,
 				002B43E81BC4C9BB003AF629 /* MainViewController.m in Sources */,
 				002B43F41BC4C9DB003AF629 /* CommonUtil.m in Sources */,
+				00EB1AAB1BCCBD8C00BEDDCA /* Sentence.m in Sources */,
+				00EB1ABD1BCCE96700BEDDCA /* SentencyCell.m in Sources */,
 				002B44061BC4F7C9003AF629 /* ObjectBase.m in Sources */,
 				00278BB51BCAB80F0030714A /* hikago.xcdatamodeld in Sources */,
 				00EB1AA41BCCAE2900BEDDCA /* CourseDetail.m in Sources */,

@@ -7,16 +7,36 @@
 //
 
 #import "CourseDetail.h"
+#import "CoursesObject.h"
+#import "Sentence.h"
+#import "SentencyCell.h"
 
 @interface CourseDetail ()
-
 @end
 
-@implementation CourseDetail
+@implementation CourseDetail{
+    NSArray *courseDetail;
+    NSArray *sentencyArray;
+    NSDictionary *sentencyDict;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    //--------------------------------------------------------------------
+    // read the element data from the plist
+    NSString *thePath = [[NSBundle mainBundle]  pathForResource:@"CoursesDetail" ofType:@"plist"];
+    courseDetail = [[NSArray alloc] initWithContentsOfFile:thePath];
+    NSDictionary *courseDetailDict = [courseDetail objectAtIndex:0];
+    self.lbCourseName.text = courseDetailDict[@"courseName"];
+    self.lbAuthor.text = courseDetailDict[@"owner"];
+    
+    thePath = [[NSBundle mainBundle]  pathForResource:@"Sentency" ofType:@"plist"];
+    NSArray *tempArray = [[NSArray alloc] initWithContentsOfFile:thePath];
+    sentencyDict = [tempArray objectAtIndex:0];
+    sentencyArray = [sentencyDict allKeys];
+    NSLog(@"array of Course: %ld", (unsigned long)[courseDetail count]);
+    NSLog(@"array of Sentency: %ld", (unsigned long)[sentencyDict count]);
+    //--------------------------------------------------------------------
 }
 
 - (void)didReceiveMemoryWarning {
@@ -31,13 +51,24 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 0;
+    return [sentencyArray count];
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    NSLog(@"Draw row here: index row %ld ", (long)indexPath.row);
-    return nil;
+    NSDictionary *rowDict = [sentencyArray objectAtIndex:indexPath.row];
+    NSString *sentency1 = (NSString*)rowDict;
+    NSString *sentency2 = [sentencyDict objectForKey:rowDict];
+    SentencyCell *sentencyCell = nil;
+    static NSString *simpleTableIndentifier = @"SentencyCell";
+    sentencyCell = (SentencyCell*)[tableView dequeueReusableCellWithIdentifier:simpleTableIndentifier];
+    if(sentencyCell == nil){
+        NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"SentencyCell" owner:self options:nil];
+        sentencyCell = [nib objectAtIndex:0];
+    }
+    sentencyCell.lbSentency1.text = sentency1;
+    sentencyCell.lbSentency2.text = sentency2;
+    return sentencyCell;
 }
 
 
@@ -75,21 +106,13 @@
  }
  */
 
-
+/*
 #pragma mark - Table view delegate
 
 // In a xib-based application, navigation from a table can be handled in -tableView:didSelectRowAtIndexPath:
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Navigation logic may go here, for example:
-    // Create the next view controller.
-    CourseDetail *courseDetail = [[CourseDetail alloc] initWithNibName:@"CourseDetail" bundle:nil];
-    
-    // Pass the selected object to the new view controller.
-    NSLog(@"Click on item %ld", (long)indexPath.row);
-    // Push the view controller.
-    [self.navigationController pushViewController:courseDetail animated:YES];
 }
-
+*/
 
 /*
  #pragma mark - Navigation
