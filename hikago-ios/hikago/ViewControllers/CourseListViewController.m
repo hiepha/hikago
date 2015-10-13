@@ -10,6 +10,7 @@
 #import "CourseListBussiness.h"
 #import "CourseCell.h"
 #import "CoursesObject.h"
+#import "CourseDetail.h"
 
 @interface CourseListViewController ()
 
@@ -53,13 +54,13 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     NSInteger rows = [arrCourses count];
-    NSLog(@"Number of rows: %ld", rows);
+    NSLog(@"Number of rows: %ld", (long)rows);
     return rows;
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    NSLog(@"Draw row here: index row %ld ", indexPath.row);
+    NSLog(@"Draw row here: index row %ld ", (long)indexPath.row);
     NSDictionary *course = [arrCourses objectAtIndex:indexPath.row];
     if(course == nil){
         return nil;
@@ -114,29 +115,28 @@
 }
 */
 
-/*
+
 #pragma mark - Table view delegate
 
 // In a xib-based application, navigation from a table can be handled in -tableView:didSelectRowAtIndexPath:
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     // Navigation logic may go here, for example:
     // Create the next view controller.
-    <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:<#@"Nib name"#> bundle:nil];
+    CourseDetail *courseDetail = [[CourseDetail alloc] initWithNibName:@"CourseDetail" bundle:nil];
     
     // Pass the selected object to the new view controller.
-    
+        NSLog(@"Click on item %ld", (long)indexPath.row);
     // Push the view controller.
-    [self.navigationController pushViewController:detailViewController animated:YES];
+    [self.navigationController pushViewController:courseDetail animated:YES];
 }
-*/
+
 
 /*
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    NSLog(@"Click on item");
 }
 */
 

@@ -15,7 +15,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Course Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o27-cg-qXu">
-                        <rect key="frame" x="10" y="-10" width="455" height="50"/>
+                        <rect key="frame" x="10" y="-10" width="351" height="50"/>
                         <animations/>
                         <constraints>
                             <constraint firstAttribute="height" constant="50" id="kS6-aJ-bSO"/>
@@ -40,6 +40,11 @@
                         <color key="textColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RFG-pk-ORl">
+                        <rect key="frame" x="417" y="8" width="46" height="30"/>
+                        <animations/>
+                        <state key="normal" title="Learn"/>
+                    </button>
                 </subviews>
                 <animations/>
                 <constraints>
@@ -54,7 +59,7 @@
                 <outlet property="lbCourseName" destination="o27-cg-qXu" id="23n-aV-WK1"/>
                 <outlet property="lbCreatedTime" destination="Cra-Pa-zaX" id="Z5K-ON-7R5"/>
             </connections>
-            <point key="canvasLocation" x="-140.5" y="124"/>
+            <point key="canvasLocation" x="-145.5" y="214"/>
         </tableViewCell>
     </objects>
 </document>

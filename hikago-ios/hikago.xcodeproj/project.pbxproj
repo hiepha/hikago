@@ -32,6 +32,8 @@
 		00B28EE91BBA23EE006AED14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00B28EE81BBA23EE006AED14 /* Assets.xcassets */; };
 		00B28EF71BBA23EE006AED14 /* hikagoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B28EF61BBA23EE006AED14 /* hikagoTests.m */; };
 		00B28F021BBA23EE006AED14 /* hikagoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B28F011BBA23EE006AED14 /* hikagoUITests.m */; };
+		00EB1AA41BCCAE2900BEDDCA /* CourseDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 00EB1AA21BCCAE2900BEDDCA /* CourseDetail.m */; settings = {ASSET_TAGS = (); }; };
+		00EB1AA51BCCAE2900BEDDCA /* CourseDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00EB1AA31BCCAE2900BEDDCA /* CourseDetail.xib */; settings = {ASSET_TAGS = (); }; };
 		B864719C2018190C754BB58C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E4169C0875FA460FEEDCD65 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -96,6 +98,9 @@
 		00B28EFD1BBA23EE006AED14 /* hikagoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hikagoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00B28F011BBA23EE006AED14 /* hikagoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hikagoUITests.m; sourceTree = "<group>"; };
 		00B28F031BBA23EE006AED14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00EB1AA11BCCAE2900BEDDCA /* CourseDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseDetail.h; sourceTree = "<group>"; };
+		00EB1AA21BCCAE2900BEDDCA /* CourseDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseDetail.m; sourceTree = "<group>"; };
+		00EB1AA31BCCAE2900BEDDCA /* CourseDetail.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CourseDetail.xib; sourceTree = "<group>"; };
 		1002BB09760F2C062988E668 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		1B3BDAE924FC656EE2FA9705 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		5E4169C0875FA460FEEDCD65 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,6 +143,9 @@
 				002B43E21BC4C9BB003AF629 /* CourseListViewController.xib */,
 				002B43E31BC4C9BB003AF629 /* MainViewController.h */,
 				002B43E41BC4C9BB003AF629 /* MainViewController.m */,
+				00EB1AA11BCCAE2900BEDDCA /* CourseDetail.h */,
+				00EB1AA21BCCAE2900BEDDCA /* CourseDetail.m */,
+				00EB1AA31BCCAE2900BEDDCA /* CourseDetail.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -311,6 +319,7 @@
 				00B28ED31BBA23EE006AED14 /* Frameworks */,
 				00B28ED41BBA23EE006AED14 /* Resources */,
 				904C66F364F78224D754031F /* Copy Pods Resources */,
+				5524E2D38AE5E25C6C69E298 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -414,6 +423,7 @@
 				0045D2F91BCAB2BD0066274C /* CourseCell.xib in Resources */,
 				002B43D71BC4C585003AF629 /* LaunchScreen.storyboard in Resources */,
 				00B28EE41BBA23EE006AED14 /* Main.storyboard in Resources */,
+				00EB1AA51BCCAE2900BEDDCA /* CourseDetail.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +444,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		5524E2D38AE5E25C6C69E298 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7114A6A54304CDE5E743F96B /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -483,6 +508,7 @@
 				002B43F41BC4C9DB003AF629 /* CommonUtil.m in Sources */,
 				002B44061BC4F7C9003AF629 /* ObjectBase.m in Sources */,
 				00278BB51BCAB80F0030714A /* hikago.xcdatamodeld in Sources */,
+				00EB1AA41BCCAE2900BEDDCA /* CourseDetail.m in Sources */,
 				002B43F71BC4C9DB003AF629 /* XMLParser.m in Sources */,
 				002B43E51BC4C9BB003AF629 /* AppDelegate.m in Sources */,
 			);

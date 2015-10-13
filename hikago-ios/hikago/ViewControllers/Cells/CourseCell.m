@@ -7,6 +7,7 @@
 //
 
 #import "CourseCell.h"
+#import "CourseDetail.h"
 
 @implementation CourseCell
 
@@ -16,8 +17,10 @@
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
-
-    // Configure the view for the selected state
+//    CourseDetail *courseDetail = [[CourseDetail alloc] initWithNibName:@"CourseDetail" bundle:nil];
+//    self.window.rootViewController = courseDetail;
+//    tableViewController *viewController = [[tableViewController alloc] initWithNibName:@"tableViewController" bundle:nil];
+//    self.window.rootViewController = viewController;
 }
 
 @end
