@@ -10,6 +10,7 @@
 #import "CoursesObject.h"
 #import "Sentence.h"
 #import "SentencyCell.h"
+#import "FlashCardViewController.h"
 
 @interface CourseDetail ()
 @end
@@ -123,4 +124,8 @@
  }
  */
 
+- (IBAction)actSegueButtonCourse:(id)sender {
+    FlashCardViewController *flashCard = [[FlashCardViewController alloc] initWithNibName:@"FlashCardViewController" bundle:nil];
+    [self.navigationController pushViewController:flashCard animated:YES];
+}
 @end

@@ -17,4 +17,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *btnMatch;
 @property (weak, nonatomic) IBOutlet UIButton *lbQuickCard;
 
+- (IBAction)actSegueButtonCourse:(id)sender;
+
+
 @end
