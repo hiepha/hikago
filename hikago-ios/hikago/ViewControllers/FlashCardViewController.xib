@@ -27,7 +27,7 @@
                         </label>
                     </subviews>
                     <animations/>
-                    <color key="backgroundColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="backgroundColor" white="0.68410770046083547" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
             </subviews>
             <animations/>

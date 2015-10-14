@@ -89,6 +89,7 @@
                 <constraint firstItem="fap-6q-0NX" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="trailing" constant="-50" id="m0j-Pa-NeV"/>
                 <constraint firstItem="FfL-MC-WXQ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="o5X-1X-fnh"/>
             </constraints>
+            <point key="canvasLocation" x="685" y="372"/>
         </view>
     </objects>
 </document>
