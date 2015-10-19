@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>日本</key>
+		<string>にほん・にっぽん・JAPAN</string>
+		<key>日曜日</key>
+		<string>にちようび・SUNDAY</string>
+		<key>三日</key>
+		<string>みっか・The 3rd day</string>
+		<key>月曜日</key>
+		<string>げつよび・MONDAY</string>
+		<key>一月</key>
+		<string>いちがつ・JANUARY</string>
+		<key>一ヵ月</key>
+		<string>いつげつ・One month</string>
+		<key>木曜日</key>
+		<string>もくようび・THURSDAY</string>
+		<key>木村</key>
+		<string>きむら</string>
+		<key>富士山</key>
+		<string>ふじさん・Mt Fuji</string>
+		<key>山下</key>
+		<string>やました</string>
+		<key>火山</key>
+		<string>かざん・VOLCANO</string>
+		<key>山田</key>
+		<string>やまだ</string>
+		<key>田中</key>
+		<string>たなか</string>
+		<key>三人</key>
+		<string>さんにん・３ PEOPLE</string>
+		<key>日本人</key>
+		<string>にほんじん・JAPANESE</string>
+		<key>入口</key>
+		<string>いりぐち・ENTRANCE</string>
+		<key>出口</key>
+		<string>でぐち・EXIT</string>
+		<key>人口</key>
+		<string>じんこう・POPULATION</string>
+		<key>自動車</key>
+		<string>じどうしゃ・CAR/AUTOMOBILE</string>
+		<key>電車</key>
+		<string>でんしゃ・Train</string>
+		<key>専門</key>
+		<string>せんもん・SPECIALTY</string>		
+	</dict>
+</array>
+</plist>
